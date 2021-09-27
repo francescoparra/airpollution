@@ -1,9 +1,10 @@
-.header{
-    display: flex;
+.navbar{
+    margin-top: 20px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    background-color: rgb(228, 226, 226);
-    .searchbar{
-        border-radius: 20px;
+    .search-area{
+        display: flex;
     }
 }

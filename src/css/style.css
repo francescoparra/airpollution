@@ -4,14 +4,67 @@
   box-sizing: border-box;
 }
 
-.header {
-  display: flex;
+.navbar {
+  margin-top: 20px;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  background-color: #e4e2e2;
 }
-.header .searchbar {
-  border-radius: 20px;
+.navbar .search-area {
+  display: flex;
+}
+
+.button {
+  padding: 0px 10px;
+  background: none;
+  border: 0;
+}
+
+.searchbar {
+  width: 100%;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.infos {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.infos #map {
+  background-color: white;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 5px;
+  top: 250px;
+  height: 33%;
+  width: 33%;
+}
+.infos .first-section, .infos .second-section {
+  margin-top: 365px;
+  display: flex;
+}
+.infos .first-section .element, .infos .second-section .element {
+  text-align: center;
+  width: 230px;
+  height: 120px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 0px 25px;
+  padding: 20px;
+}
+.infos .first-section .element .value, .infos .second-section .element .value {
+  text-align: center;
+  font-size: 18px;
+}
+.infos .second-section {
+  margin-top: 20px;
+}
+.infos .second-section .element {
+  width: 510px;
 }
 
 /*# sourceMappingURL=style.css.map */
