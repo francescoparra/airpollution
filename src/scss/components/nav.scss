@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(228, 226, 226);
+    .searchbar{
+        border-radius: 20px;
+    }
+}
