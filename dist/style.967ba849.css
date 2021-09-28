@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Yaldevi&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  margin-top: 15px;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .search-area {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 0px 10px;
+  background: none;
+  border: 0;
+}
+
+.searchbar {
+  width: 100%;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.infos {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.infos #map {
+  background-color: white;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 5px;
+  top: 220px;
+  height: 50%;
+  width: 50%;
+}
+.infos .first-section, .infos .second-section {
+  margin-top: 500px;
+  display: flex;
+}
+.infos .first-section .element, .infos .second-section .element {
+  background-color: white;
+  text-align: center;
+  width: 250px;
+  height: 120px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 0px 25px;
+  padding: 20px;
+}
+.infos .first-section .element .value, .infos .second-section .element .value {
+  text-align: center;
+  font-size: 17px;
+}
+.infos .first-section .element #air, .infos .second-section .element #air {
+  background-color: #d6d629;
+}
+.infos .second-section {
+  margin-top: 20px;
+}
+.infos .second-section .element {
+  width: 550px;
+  height: 150px;
+}
+
+* {
+  font-family: "Yaldevi", sans-serif;
+}
+
+.footer {
+  position: relative;
+  padding: 40px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .first-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  #no2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  #health {
+    width: 250px;
+    height: 190px;
+    margin-bottom: 100px;
+  }
+  #health p {
+    font-size: 14px;
+  }
+
+  .footer {
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .infos {
+    height: 900px;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+  .infos {
+    height: 1200px;
+  }
+}
+
+
+
+
+/*# sourceMappingURL=/style.967ba849.css.map */
