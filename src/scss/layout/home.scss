@@ -4,21 +4,22 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    #map{
-        background-color: rgb(255, 255, 255);
-        position: absolute;
-        border: 1px solid black;
-        border-radius: 5px;
-        top: 250px;
-        height: 33%;
-        width: 33%;
-    }
+        #map{
+            background-color: white;
+            position: absolute;
+            border: 1px solid black;
+            border-radius: 5px;
+            top: 220px;
+            height: 50%;
+            width: 50%;
+        }
     .first-section, .second-section{
-        margin-top: 365px;
+        margin-top: 500px;
         display: flex;
         .element{
+            background-color: white;
             text-align: center;
-            width: 230px;
+            width: 250px;
             height: 120px;
             border: 1px solid black;
             border-radius: 8px;
@@ -26,14 +27,18 @@
             padding: 20px;
             .value{
                 text-align: center;
-                font-size: 18px;
+                font-size: 17px;
+            }
+            #air{
+                background-color: rgb(214, 214, 41);
             }
         }
     }
     .second-section{
         margin-top: 20px;
         .element{
-            width: 510px;
+            width: 550px;
+            height: 150px;
         }
     }
 }
