@@ -4,10 +4,10 @@ Quest'applicazione ci permetterà di vedere il livello della qualità dell'aria,
 
 # Realizzazione 
 
-Dopo aver analizzato le richieste e i componenti da utilizzare ho inizio il progetto:
+Dopo aver analizzato le richieste e i componenti da utilizzare ho iniziato il progetto:
 
 1. HTML 
-    - Dopo aver creato il file collego lo collego con il foglio di stile e lo script e in seguito aggiungo Bootstrap nel caso potesse servirmi, la mappa LeaFlet e axios.
+    - Dopo aver creato il file lo collego con il foglio di stile e lo script e in seguito aggiungo Bootstrap, nel caso potesse servirmi, la mappa LeaFlet e axios.
     - Scrivo una navbar dove ci sarà il titolo e la sezione per la ricerca, con il nome della città in cui si è in quel momento.
     - Infine scrivo la sezione info dove abbiamo la mappa e tutti i dati relativi all'inquinamento, io come standard ho messo Milano.
     - Alla fine della pagina c'è il footer.
@@ -25,9 +25,9 @@ Dopo aver analizzato le richieste e i componenti da utilizzare ho inizio il prog
     - Dichiaro poi l'apiKey che andrà a prendere il valore dal file .env in modo da rendere il valore privato.
     - Aggiungo la mappa.
     - Creo la funzione del bottone, che quando verrà cliccato tramite una chiamata axios cercherà la "location" che l'utente ha scritto nella barra di ricerca.
-    - Tramite un if chiedo di confrontare il valore status del api call, nel caso il valore sia diverso da ok vorrà dire che la città non è stata trovata e allora segnaliamo l'errore con una scritta, poi sempre tramite degli if che si baseranno sul valore aqi vado a modifcare la variabile ht che modifcherà la scritta nel blocco Health Notes.
-    - Creo una variabile inputkey che selezionerà la searchbar e aggiungo un evento tramite il quale se premiamo il tasto invio mentre siamo nella searchbar esso cercherà la città scritta.
-    - Infine creo la funzione del bottone geo, che quando verrà cliccato cercherà la stazione più vicina alla nostra posizione.
+    - Tramite un if chiedo di confrontare il valore status del api call, nel caso il valore sia diverso da "ok" vorrà dire che la città non è stata trovata e allora segnaliamo l'errore con una scritta, poi sempre tramite degli if che si baseranno sul valore aqi vado a modifcare la variabile ht che modifcherà la scritta nel blocco Health Notes.
+    - Creo una variabile inputkey che selezionerà la searchbar e aggiungo un evento tramite il quale se premiamo il tasto "invio" mentre siamo nella searchbar esso cercherà la città scritta.
+    - Infine creo la funzione del bottone "geo", che quando verrà cliccato cercherà la stazione più vicina alla nostra posizione.
 
 # Conclusione
 
