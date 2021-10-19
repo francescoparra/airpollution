@@ -33,4 +33,4 @@ Dopo aver analizzato le richieste e i componenti da utilizzare ho iniziato il pr
 
 L'applicazione lavora in tutte le sue funzioni sia su desktop che nella sua versione mobile. Ci ho messo un po' di tempo per creare il progetto ma vado fiero del risultato ottenuto. 
 
-Deploy eseguito su netlify: https://lucid-lamarr-1ff308.netlify.app/
+Deploy eseguito su netlify: https://air-pollution-project-fp.netlify.app/
